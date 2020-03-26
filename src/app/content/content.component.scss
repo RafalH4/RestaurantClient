@@ -1,0 +1,18 @@
+$main-color: #eb7c22;
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+
+}
+.dish-part{
+    display: flex;
+    flex-grow: 3;
+    margin-right: 10px;
+    background-color: $main-color;
+}
+.order-part{
+    display: flex;
+    flex-grow: 1;
+    background-color: $main-color;
+}
